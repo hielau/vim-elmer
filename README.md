@@ -1,15 +1,14 @@
 # vim-elmer
 ## Functionality
 * Syntax highlighting
-* Code folding
 * Custom Elmer installation Keyword fetching (ELMER_HOME environment variable needs to be set)
 
 ## Installing
 Plugin for adding highlighting for ElmerFEM Solver Input Files(SIF)
 
-### Install using vundle
+### Install using package manager
 
-add "Plugin 'ettaka/vim-elmer'" to your .vimrc
+add "Plugin 'hielau/vim-elmer'" to your .vimrc
 
 ### Manual install
 
