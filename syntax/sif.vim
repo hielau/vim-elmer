@@ -27,7 +27,7 @@ endfunction
 let complain=0
 let filepaths=[]
 let keysfound=0
-call AddToSet(filepaths, /usr/local/share/elmersolver/lib/SOLVER.KEYWORDS')
+call AddToSet(filepaths, '/usr/local/share/elmersolver/lib/SOLVER.KEYWORDS')
 call AddToSet(filepaths, $HOME . '/.vim/syntax/SOLVER.KEYWORDS')
 call AddToSet(filepaths, $HOME . '/.vim/bundle/vim-elmer/syntax/SOLVER.KEYWORDS')
 let filecontents=[]
